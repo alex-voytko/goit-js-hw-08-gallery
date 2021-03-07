@@ -1,0 +1,23 @@
+.parent {
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+} 
+.block {
+    width: 150px;
+    height: 150px;
+    margin: 0 10px 10px 0;
+    border: 1px solid black;
+}
+.active {
+    background-color: #000;
+}
+
+.reverse {
+    width: 200px;
+    height: 68px;
+    display: block;
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 5px;
+}
